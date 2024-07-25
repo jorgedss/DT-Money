@@ -7,7 +7,9 @@ import {
   TransActionTable,
 } from './styles'
 
-export function Transaction() {
+export function Transactions() {
+  fetch('http://localhost:3000/transaction')
+
   return (
     <div>
       <Header />
