@@ -1,5 +1,6 @@
 {
-    "transactions":[{
+    "transactions":[
+        {
         "id":1,
         "description":"Desenvolvimento de site",
         "type": "income",
@@ -15,6 +16,15 @@
         "category": "Alimentação",
         "price": 45,
         "createdAt": "2024-07-24T23:49:01.871Z"
+
+    },
+    {
+        "id":3,
+        "description":"Spotify",
+        "type": "outcome",
+        "category": "Entretenimento",
+        "price": 7,
+        "createdAt": "2024-07-25T23:49:01.871Z"
 
     }
 ]
